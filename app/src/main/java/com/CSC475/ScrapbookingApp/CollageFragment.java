@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.CSC475.ScrapbookingApp.databinding.FragmentMenuBinding;
+import com.CSC475.ScrapbookingApp.databinding.FragmentCollageBinding;
 
 public class CollageFragment extends Fragment {
 
-    private FragmentMenuBinding binding;
+    private FragmentCollageBinding binding;
 
     @Override
     public View onCreateView(
@@ -21,7 +21,7 @@ public class CollageFragment extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = FragmentMenuBinding.inflate(inflater, container, false);
+        binding = FragmentCollageBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -29,6 +29,13 @@ public class CollageFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        binding.previousButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(CollageFragment.this)
+                        .navigate(R.id.action_CollageFragment_to_MenuFragment);
+            }
+        });
     }
 
     @Override

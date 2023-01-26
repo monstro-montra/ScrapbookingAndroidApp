@@ -7,23 +7,22 @@
     tools:context=".MenuFragment">
 
     <TextView
-        android:id="@+id/menu_textview"
+        android:id="@+id/textview_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/menu_label"
-        app:layout_constraintBottom_toTopOf="@id/menu_button_first"
+        app:layout_constraintBottom_toTopOf="@id/view_collage_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/menu_button_first"
+        android:id="@+id/view_collage_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/view_collage_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/menu_textview" />
-
+        app:layout_constraintTop_toBottomOf="@id/textview_first" />
 </androidx.constraintlayout.widget.ConstraintLayout>

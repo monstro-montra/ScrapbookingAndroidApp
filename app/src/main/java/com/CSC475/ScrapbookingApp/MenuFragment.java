@@ -29,7 +29,7 @@ public class MenuFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.menuButtonFirst.setOnClickListener(new View.OnClickListener() {
+        binding.viewCollageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(MenuFragment.this)
