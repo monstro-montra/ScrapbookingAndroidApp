@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MenuFragment">
+
+    <fragment
+        android:id="@+id/MenuFragment"
+        android:name="com.CSC475.ScrapbookingApp.MenuFragment"
+        android:label="@string/menu_label"
+        tools:layout="@layout/fragment_menu">
+
+        <action
+            android:id="@+id/action_MenuFragment_to_CollageFragment"
+            app:destination="@id/CollageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/CollageFragment"
+        android:name="com.CSC475.ScrapbookingApp.CollageFragment"
+        android:label="@string/collage_label"
+        tools:layout="@layout/fragment_collage">
+
+    </fragment>
+</navigation>
