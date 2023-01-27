@@ -18,7 +18,7 @@ public class CollageFragment extends Fragment {
 
     @Override
     public View onCreateView(
-            LayoutInflater inflater, ViewGroup container,
+            @NonNull LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
         binding = FragmentCollageBinding.inflate(inflater, container, false);
@@ -35,31 +35,16 @@ public class CollageFragment extends Fragment {
         tokyo = view.findViewById(R.id.tokyo_image);
 
         //set onClick to move from CollageFragment to MachuPicchuFragment
-        binding.machuPicchuImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(CollageFragment.this)
-                        .navigate(R.id.action_CollageFragment_to_MachuPicchuFragment);
-            }
-        });
+        binding.machuPicchuImage.setOnClickListener(view1 -> NavHostFragment.findNavController(CollageFragment.this)
+                .navigate(R.id.action_CollageFragment_to_MachuPicchuFragment));
 
         //set onClick to move from CollageFragment to RomeFragment
-        binding.romeImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(CollageFragment.this)
-                        .navigate(R.id.action_CollageFragment_to_RomeFragment);
-            }
-        });
+        binding.romeImage.setOnClickListener(view13 -> NavHostFragment.findNavController(CollageFragment.this)
+                .navigate(R.id.action_CollageFragment_to_RomeFragment));
 
         //set onClick to move from CollageFragment to TokyoFragment
-        binding.tokyoImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(CollageFragment.this)
-                        .navigate(R.id.action_CollageFragment_to_TokyoFragment);
-            }
-        });
+        binding.tokyoImage.setOnClickListener(view12 -> NavHostFragment.findNavController(CollageFragment.this)
+                .navigate(R.id.action_CollageFragment_to_TokyoFragment));
 
     }
 
