@@ -12,9 +12,9 @@
     <string name="view_collage_button">View Collage</string>
 
     <!-- picture strings -->
-    <string name="an_image_of_machu_picchu">An image of machu picchu!</string>
-    <string name="an_image_of_rome">An image of Rome!</string>
-    <string name="an_image_of_tokyo">An image of Tokyo!</string>
+    <string name="machu_picchu_image">An image of machu picchu!</string>
+    <string name="rome_image">An image of Rome!</string>
+    <string name="tokyo_image">An image of Tokyo!</string>
 
     <string name="description_of_machu_picchu">Machu Picchu is an ancient Incan citadel located in the Andes Mountains of Peru. It is believed to have been built
         in the 15th century and was later abandoned. The site includes intricate stone structures, terraced gardens, and plazas that were built without the
@@ -27,6 +27,11 @@
         finance, and transportation. \n\nIt also has many tourist attractions, such as the Tokyo Tower, the Imperial Palace, and the Sensoji Temple. Additionally, Tokyo
         is also famous for its shopping and entertainment districts, such as Shinjuku and Shibuya.</string>
 
-    <string name="description_of_rome"></string>
+    <string name="description_of_rome"> Rome is the capital of Italy and a city with a rich history dating back to ancient times. It is
+        known for its historic landmarks such as the Colosseum, the Roman Forum, and the Pantheon. The Vatican City, the home of the
+        Catholic Church and the Pope, is also located within Rome\'s city limits. Additionally, Rome is renowned for its art, architecture,
+        and museums, as well as its delicious Italian cuisine and vibrant nightlife.</string>
+
+
 
 </resources>
