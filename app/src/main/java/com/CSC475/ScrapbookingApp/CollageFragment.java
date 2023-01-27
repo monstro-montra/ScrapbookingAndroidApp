@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -12,6 +13,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.CSC475.ScrapbookingApp.databinding.FragmentCollageBinding;
 
 public class CollageFragment extends Fragment {
+    ImageView machu_picchu, rome, tokyo;
 
     private FragmentCollageBinding binding;
 
@@ -28,6 +30,31 @@ public class CollageFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        machu_picchu = view.findViewById(R.id.machu_picchu_image);
+        rome = view.findViewById(R.id.rome_image);
+        tokyo = view.findViewById(R.id.tokyo_image);
+
+        machu_picchu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+        rome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+        tokyo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
     }
 
