@@ -6,5 +6,6 @@ project is for CSC475, Platform Based Development, which is an Android developme
 * Bullet List
 Clickable buttons that navigate the user to different menus
 * Menu Bar with a back button to navigate to previous screens
-* A Floating Action Button (FAB) that currently doesn't do anything
-* A settings menu that doesn't do anything
+* A Floating Action Button (FAB) that currently doesn't do anything (yet)
+* A settings menu that doesn't do anything (yet)
+* AI driven descriptions for each location!
