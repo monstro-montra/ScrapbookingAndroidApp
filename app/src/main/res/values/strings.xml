@@ -1,10 +1,14 @@
 <resources>
     <string name="app_name">Scrapbooking Android App</string>
     <string name="action_settings">Settings</string>
+
     <!-- Strings used for fragments for navigation -->
     <string name="menu_label">Main Menu</string>
     <string name="collage_label">Collage</string>
     <string name="previous_button">Previous</string>
     <string name="view_collage_button">View Collage</string>
+    <string name="an_image_of_machu_picchu">An image of machu picchu!</string>
+    <string name ="an_image_of_rome">An image of Rome!</string>
+    <string name ="an_image_of_tokyo">An image of Tokyo!</string>
 
 </resources>

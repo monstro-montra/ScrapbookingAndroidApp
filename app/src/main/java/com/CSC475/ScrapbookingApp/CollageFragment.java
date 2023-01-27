@@ -29,13 +29,6 @@ public class CollageFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.previousButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(CollageFragment.this)
-                        .navigate(R.id.action_CollageFragment_to_MenuFragment);
-            }
-        });
     }
 
     @Override
