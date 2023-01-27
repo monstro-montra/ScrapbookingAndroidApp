@@ -5,12 +5,20 @@
     <!-- Strings used for fragments for navigation -->
     <string name="menu_label">Main Menu</string>
     <string name="collage_label">Collage</string>
+    <string name="machu_picchu_label">Machu Picchu</string>
+    <string name="rome_label">Rome</string>
+    <string name="tokyo_label">Tokyo</string>
     <string name="previous_button">Previous</string>
     <string name="view_collage_button">View Collage</string>
+
+    <!-- picture strings -->
     <string name="an_image_of_machu_picchu">An image of machu picchu!</string>
     <string name="an_image_of_rome">An image of Rome!</string>
     <string name="an_image_of_tokyo">An image of Tokyo!</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="description_of_machu_picchu"> Tokyo is the capital and largest city of Japan. It is a bustling metropolis known for its high-tech advancements, unique blend of traditional and modern culture,
+        and delicious food. The city is home to over 13 million people and is a major center for business, finance, and transportation. It also has many tourist attractions, such as the Tokyo Tower,
+        the Imperial Palace, and the Sensoji Temple. Additionally, Tokyo is also famous for its shopping and entertainment districts, such as Shinjuku and Shibuya.</string>
+
 
 </resources>

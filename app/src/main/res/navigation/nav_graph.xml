@@ -15,14 +15,45 @@
             android:id="@+id/action_MenuFragment_to_CollageFragment"
             app:destination="@id/CollageFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/CollageFragment"
         android:name="com.CSC475.ScrapbookingApp.CollageFragment"
         android:label="@string/collage_label"
-        tools:layout="@layout/fragment_collage">
+        tools:layout="@layout/fragment_collage"
+        tools:ignore="ExtraText">
 
+        <!-- the following actions are used for switching between the picture fragments-->>
         <action
-            android:id="@+id/action_CollageFragment_to_MenuFragment"
-            app:destination="@id/MenuFragment" />
+            android:id="@+id/action_CollageFragment_to_MachuPicchuFragment"
+            app:destination="@id/MachuPicchuFragment" />
+        <action
+            android:id="@+id/action_CollageFragment_to_RomeFragment"
+            app:destination="@id/RomeFragment" />
+        <action
+            android:id="@+id/action_CollageFragment_to_TokyoFragment"
+            app:destination="@id/TokyoFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/MachuPicchuFragment"
+        android:name="com.CSC475.ScrapbookingApp.MachuPicchuFragment"
+        android:label="@string/machu_picchu_label"
+        tools:layout="@layout/fragment_machu_picchu">
+    </fragment>
+
+    <fragment
+        android:id="@+id/RomeFragment"
+        android:name="com.CSC475.ScrapbookingApp.RomeFragment"
+        android:label="@string/rome_label"
+        tools:layout="@layout/fragment_rome">
+    </fragment>
+
+    <fragment
+        android:id="@+id/TokyoFragment"
+        android:name="com.CSC475.ScrapbookingApp.TokyoFragment"
+        android:label="@string/tokyo_label"
+        tools:layout="@layout/fragment_tokyo">
+    </fragment>
+
 </navigation>

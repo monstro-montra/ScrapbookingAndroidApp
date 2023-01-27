@@ -14,7 +14,6 @@ import com.CSC475.ScrapbookingApp.databinding.FragmentCollageBinding;
 
 public class CollageFragment extends Fragment {
     ImageView machu_picchu, rome, tokyo;
-
     private FragmentCollageBinding binding;
 
     @Override
@@ -22,7 +21,6 @@ public class CollageFragment extends Fragment {
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
-
         binding = FragmentCollageBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
@@ -31,28 +29,35 @@ public class CollageFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        //initialize images
         machu_picchu = view.findViewById(R.id.machu_picchu_image);
         rome = view.findViewById(R.id.rome_image);
         tokyo = view.findViewById(R.id.tokyo_image);
 
-        machu_picchu.setOnClickListener(new View.OnClickListener() {
+        //set onClick to move from CollageFragment to MachuPicchuFragment
+        binding.machuPicchuImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                NavHostFragment.findNavController(CollageFragment.this)
+                        .navigate(R.id.action_CollageFragment_to_MachuPicchuFragment);
             }
         });
 
-        rome.setOnClickListener(new View.OnClickListener() {
+        //set onClick to move from CollageFragment to RomeFragment
+        binding.romeImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                NavHostFragment.findNavController(CollageFragment.this)
+                        .navigate(R.id.action_CollageFragment_to_RomeFragment);
             }
         });
 
-        tokyo.setOnClickListener(new View.OnClickListener() {
+        //set onClick to move from CollageFragment to TokyoFragment
+        binding.tokyoImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                NavHostFragment.findNavController(CollageFragment.this)
+                        .navigate(R.id.action_CollageFragment_to_TokyoFragment);
             }
         });
 
