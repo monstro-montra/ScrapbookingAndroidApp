@@ -10,6 +10,6 @@ project is for CSC475, Platform Based Development, which is an Android developme
 * AI driven descriptions for each location!
 
 ## Pictures
-[Image 1](image1.jpg)
-[Image 2](image2.jpg)
-[Image 3](image3.jpg)
+[Image 1](image1.png)
+[Image 2](image2.png)
+[Image 3](image3.png)
