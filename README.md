@@ -8,3 +8,8 @@ project is for CSC475, Platform Based Development, which is an Android developme
 * A Floating Action Button (FAB) that currently doesn't do anything (yet)
 * A settings menu that doesn't do anything (yet)
 * AI driven descriptions for each location!
+
+## Pictures
+[Image 1](image1.jpg)
+[Image 2](image2.jpg)
+[Image 3](image3.jpg)
